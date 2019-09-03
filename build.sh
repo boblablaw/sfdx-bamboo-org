@@ -3,7 +3,7 @@
 #
 
 # Decrypt server key
-openssl aes-256-cbc -d -md md5 -in assets/server.key.enc -out assets/server.key -k $bamboo_SERVER_KEY_PASSWORD
+# openssl aes-256-cbc -d -md md5 -in assets/server.key.enc -out assets/server.key -k $bamboo_SERVER_KEY_PASSWORD
 
 # Setup SFDX environment variables
 export CLIURL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz  
